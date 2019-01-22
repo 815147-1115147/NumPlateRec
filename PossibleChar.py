@@ -9,7 +9,7 @@ class PossibleChar:
     def __init__(self, _contour):
         self.contour = _contour
 
-        self.boundingRect = cv2.boundingRect(self.contour)
+        self.boundRect = cv2.boundingRect(self.contour)
 
         [intX, intY, intWidth, intHeight] = self.boundRect
 
